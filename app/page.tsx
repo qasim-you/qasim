@@ -28,7 +28,7 @@ export default function Home() {
         <title>Muhammad Qasim  | Full Stack Developer</title>
         <meta name="description" content="Explore projects by Qasim - React, AI, and full stack development." />
         <meta name="keywords" content="Qasim, Full Stack Developer, React, Next.js, AI Developer" />
-        <meta name="google-site-verification" content="xyz123456789" />
+        <meta name="google-site-verification" content="google725e4e70a39fc507" />
 
         <meta name="author" content="Qasim Yousaf" />
 
