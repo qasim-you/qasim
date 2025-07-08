@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 240 6% 6%;                 /* Darker base */
+  --foreground: 0 0% 100%;                 /* White text */
+
+  --card: 240 6% 10%;
+  --card-foreground: 0 0% 100%;
+
+  --popover: 240 6% 12%;
+  --popover-foreground: 0 0% 100%;
+
+  --primary: 210 100% 45%;                 /* Bold blue accent */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 240 5% 16%;                 /* Deep gray */
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 240 4% 24%;
+  --muted-foreground: 240 5% 70%;
+
+  --accent: 240 5% 20%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 85% 45%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 240 4% 30%;
+  --input: 240 4% 30%;
+  --ring: 210 100% 45%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Custom Scrollbar - heavy dark theme */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+
+  .scrollbar-thumb-zinc-700::-webkit-scrollbar-thumb {
+    background-color: #52525b; /* dark gray */
+    border-radius: 4px;
+  }
+
+  .scrollbar-track-zinc-800\/50::-webkit-scrollbar-track {
+    background-color: rgba(24, 24, 27, 0.5);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Glowing animation - dark/techy look */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scale(1);
+    box-shadow: 0 0 10px hsl(var(--primary) / 0.4);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.7);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}

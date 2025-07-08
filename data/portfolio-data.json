@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "title": "Muhammad Qasim | Developer",
+    "description": "Portfolio website showcasing product design work and skills"
+  },
+  "personal": {
+    "name": "Muhammad Qasim",
+    "title": "Professional Developer",
+    "location": "Pakistan, Faisalabad",
+    "avatar": "/confident-professional.jpeg",
+    "email": "qasimyousaf094@gmail.com",
+    "phone": "+92 327 1466033",
+    "workingHours": "Monday - Friday, 9am - 5pm PST",
+    "availableForWork": true,
+    "badges": [
+      " Developer",
+      "AI Enthusiast",
+      "Oprn Ai Agent SDK Developer"
+    ],
+   "social": [
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/qasim-you",
+    "icon": "Github"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/muhammad-qasim-600875271/",
+    "icon": "Linkedin"
+  },
+  {
+    "platform": "Twitter",
+    "url": "/",
+    "icon": "Twitter"
+  },
+  {
+    "platform": "Instagram",
+    "url": "https://github.com/qasim-you",
+    "icon": "Instagram"
+  }
+]
+
+  },
+ "about": {
+  "bio": "I am a passionate MERN stack developer and AI enthusiast focused on building scalable, real-world applications. With a strong foundation in full-stack development, I specialize in integrating AI APIs like OpenAI and Gemini into modern web apps. I thrive on solving complex problems through creative coding, research, and intuitive UI/UX design.",
+  "focus": [
+    "Building full-stack web applications using the MERN stack",
+    "Integrating AI APIs for intelligent, real-time user experiences",
+    "Exploring and implementing modern frontend technologies like Next.js and Tailwind",
+    "Solving real-world problems with creative and scalable tech solutions"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Professional",
+      "level": 90,
+      "flag": "🇺🇸"
+    },
+    {
+      "name": "Urdu",
+      "proficiency": "Native",
+      "level": 100,
+      "flag": "🇵🇰"
+    }
+  ],
+  "interests": [
+    "Creative Coding",
+    "AI Research",
+    "Solving Real-World Problems",
+    "System Design Thinking",
+    "Exploring New Technologies",
+    "Hackathon Attendee",
+    "Open Source Contributions"
+  ]
+},
+
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Credentials",
+      "href": "#credentials"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    }
+  ],
+ "experience": [
+  {
+    "title": "MERN Stack Developer",
+    "company": "Ingenious Zone (Onsite)",
+    "period": "Sep 2024 – Present",
+    "description": "Responsible for frontend architecture and UI development using React.js and Next.js. Integrated AI APIs for automation features such as content summarization and sentiment analysis.",
+    "achievements": [
+      "Collaborated with product managers and designers to iterate features based on user feedback",
+      "Implemented frontend architecture using Next.js for performance optimization",
+      "Integrated AI-driven features using OpenAI APIs"
+    ],
+    "technologies": [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "OpenAI API"
+    ]
+  },
+  {
+    "title": "MERN Stack Developer",
+    "company": "Techloset Solutions",
+    "period": "Jan 2024 – Mar 2024",
+    "description": "Developed and maintained web applications using the MERN stack. Collaborated with the design team to implement user-friendly interfaces and contributed to troubleshooting and code reviews.",
+    "achievements": [
+      "Built and deployed scalable React.js applications",
+      "Participated in peer code reviews and bug fixing",
+      "Assisted in API integration and backend support"
+    ],
+    "technologies": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "React Native",
+      "Next.js",
+      "Firebase"
+      
+    ]
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "Aiviralbuzz",
+    "period": "Present",
+    "description": "Worked closely with the design team to develop intuitive UIs. Participated in daily scrums, code reviews, and helped debug production issues.",
+    "achievements": [
+      "Contributed to UI enhancements and mobile responsiveness",
+      "Worked on bug resolution and design improvements",
+      "Collaborated in a fast-paced agile environment"
+    ],
+    "technologies": [
+      "React.js",
+      "Bootstrap",
+      "JavaScript",
+      "Next.js"
+    ]
+  },
+  {
+    "title": "MERN Stack Course (Trainee)",
+    "company": "Saylani Mass IT Training Program",
+    "period": "Oct 2022 – Dec 2023",
+    "description": "Completed a one-year practical course focused on building full-stack applications using the MERN stack. Worked on real-world projects and learned API integration, database management, and frontend-backend workflows.",
+    "achievements": [
+      "Built full-stack applications from scratch",
+      "Gained hands-on experience in API integration",
+      "Developed projects with real-world use cases"
+    ],
+    "technologies": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js"
+    ]
+  }
+]
+,
+  "credentials": {
+   "certifications": [
+
+ 
+  {
+    "name": "AI Genesis Hackathon | Certificate",
+    "issuer": "lablab.ai",
+    "date": "2024",
+       "logo": "/gemini.jpeg"
+
+  },
+  {
+    "name": "Lokahi Innovation in Healthcare Hackathon | Certificate",
+    "issuer": "lablab.ai",
+    "date": "2024",
+      "logo": "/gemini.jpeg"
+
+  },
+  {
+    "name": "AIstronauts: Space Agents on a Mission Hackathon | Certificate",
+    "issuer": "lablab.ai",
+    "date": "2024",
+        "logo": "/gemini.jpeg"
+
+  },
+  {
+    "name": "AI for Connectivity Hackathon | Certificate",
+    "issuer": "lablab.ai",
+    "date": "2024",
+    "logo": "/gemini.jpeg"
+  },
+  {
+    "name": "Gemini Ultra 1.0 Hackathon | Certificate",
+    "issuer": "lablab.ai",
+    "date": "2024",
+    "logo": "/gemini.jpeg"
+  },
+  {
+    "name": "AI for Connectivity Hackathon II: Building Resilient Networks | Certificate",
+    "issuer": "lablab.ai",
+    "date": "2024",
+    "logo": "/gemini.jpeg"
+  },
+  {
+    "name": "Llama 3 Hackathon | Certificate",
+    "issuer": "lablab.ai",
+    "date": "2024",
+    "logo": "/llama.jpeg"
+  },
+  {
+    "name": "CS50x Puzzle Day Winner",
+    "issuer": "Harvard University",
+    "date": "2025",
+    "logo": "/harward.jpeg"
+  },
+  {
+    "name": "Google Developer Hackathon",
+    "issuer": "Google Developers",
+    "date": "2025",
+    "logo": "/gdg.jpeg"
+  }
+]
+,
+    "education": [
+     
+      {
+        "degree": "Bachelor of Computer Science",
+        "institution": "Government College University Faisalabad",
+        "year": "2022-2026",
+        "logo": "/calarts-logo.png"
+      }
+    ],
+    "skills": [
+      "Next.js",
+      "React.js",
+      "OpenAI API",
+      "AI Agent SDK (OpenAI)",
+      "Gemini API (Google AI)",
+      "MERN Stack (MongoDB, Express.js, React.js, Node.js)",
+      "JavaScript / TypeScript",
+      "Python",
+      "Frontend Development",
+      "RESTful API Integration",
+      "UI/UX Design",
+      "Design Systems",
+      "Prototyping & Wireframing",
+      "User Testing",
+      "Accessibility",
+      "Design Thinking"
+    ]
+  },
+  "technicalSkills": {
+    "design": [
+      "Figma",
+     
+      "Framer"
+    ],
+   "development": [
+  "HTML/CSS",
+  "JavaScript",
+  "React.js",
+  "Next.js",
+  "Tailwind CSS",
+  "SCSS",
+  "MongoDB",
+  "Firebase",
+  "Neon",
+  "Python",
+  "OpenAI Agent SDK",
+  "Git",
+  "Responsive Design"
+],
+    "uxMethods": [
+      "User Research",
+      "Usability Testing",
+      "Wireframing",
+      "Prototyping",
+      "Information Architecture",
+      "User Flows"
+    ],
+    "softSkills": [
+      "Team Leadership",
+      "Project Management",
+      "Client Communication",
+      "Mentoring",
+      "Presentations"
+    ]
+  }
+}
