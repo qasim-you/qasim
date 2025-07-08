@@ -31,7 +31,7 @@ export interface Project {
 }
 
 const projects: Project[] = [
-   {
+  {
     id: 9,
     slug: "smartguy-edtech",
     title: "SmartGuy",
@@ -51,7 +51,7 @@ const projects: Project[] = [
     githubUrl: "",
     relatedProjects: []
   },
-    {
+  {
     id: 12,
     slug: "aiviralbuzz",
     title: "Aiviralbuzz",
@@ -61,7 +61,7 @@ const projects: Project[] = [
       "Built dynamic frontend interfaces for an emotion-aware AI chatbot. Optimized performance and responsiveness."
     ],
     features: [],
-    technologies: ["Next.js", "Gemini sdk", ".Net Core","Firebase","Pinecone"],
+    technologies: ["Next.js", "Gemini sdk", ".Net Core", "Firebase", "Pinecone"],
     coverImage: "/aiiviralbuzz.png",
     thumbnailImage: "/aiiviralbuzz.png",
     gallery: [],
@@ -69,6 +69,66 @@ const projects: Project[] = [
     role: "Frontend Developer",
     liveUrl: "https://aiviralbuzz.com/",
     githubUrl: "",
+    relatedProjects: []
+  },
+  {
+    id: 13,
+    slug: "space-agent",
+    title: "Space Ai Agent",
+    category: "Full stack",
+    shortDescription: "Build a Ai space agent for the space travel industry.",
+    description: [
+      "Built dynamic frontend interfaces for an emotion-aware AI chatbot. Optimized performance and responsiveness."
+    ],
+    features: [],
+    technologies: ["Next.js", "Gemini sdk", "Langchain"],
+    coverImage: "/space.jpg",
+    thumbnailImage: "/space.jpg",
+    gallery: [],
+    timeline: "1 month",
+    role: "Frontend Developer",
+    liveUrl: "https://ai-agents-space.vercel.app/",
+    githubUrl: "",
+    relatedProjects: []
+  },
+   {
+    id: 14,
+    slug: "optimizing-network",
+    title: "Optimizing Network with Multi Agents",
+    category: "Full stack",
+    shortDescription: "Optimized the Networking and enerdgy system with Ai",
+    description: [
+      "We focused on London for PoC - cause it’s the most developed smart city with the network infrastracture. And from that point for development is great for One Replication Strategy The London Smart City Optimization project enhances urban infrastructure using AI, IoT, and cybersecurity."
+    ],
+    features: [],
+    technologies: ["Next.js", "Gemini sdk", "Langchain"],
+    coverImage: "/optimize.jpg",
+    thumbnailImage: "/optimize.jpg",
+    gallery: [],
+    timeline: "1 month",
+    role: "Frontend Developer",
+    liveUrl: "https://storage.googleapis.com/cognispace/index.html",
+    githubUrl: "",
+    relatedProjects: []
+  },
+   {
+    id: 15,
+    slug: "resume-ai",
+    title: "Resumate Ai",
+    category: "Full stack",
+    shortDescription: "Build a resume with AI",
+    description: [
+      "Build your resume with the help of Ai"
+    ],
+    features: [],
+    technologies: ["Next.js", "Groq Ai"],
+    coverImage: "/resumate.png",
+    thumbnailImage: "/resumate.png",
+    gallery: [],
+    timeline: "1 month",
+    role: "Frontend Developer",
+    liveUrl: "https://resume-creaters.vercel.app/",
+    githubUrl: "https://github.com/qasim-you/resum-creaters",
     relatedProjects: []
   },
   {
@@ -82,8 +142,8 @@ const projects: Project[] = [
     ],
     features: [],
     technologies: ["Next.js", "Prisma"],
-    coverImage: "/appointment-app-cover.png",
-    thumbnailImage: "/appointment-app-thumb.png",
+    coverImage: "/appointment.png",
+    thumbnailImage: "/appointment.png",
     gallery: [],
     timeline: "1 month",
     role: "Full Stack Developer",
@@ -121,7 +181,7 @@ const projects: Project[] = [
       "Developed during lablab.ai Hackathon using AI-powered algorithms for real-time news verification. Built with React, Node.js, and MongoDB."
     ],
     features: [],
-    technologies: ["Next Js","Gemini API", "Huging Face Model"],
+    technologies: ["Next Js", "Gemini API", "Huging Face Model"],
     coverImage: "/fake.jpg",
     thumbnailImage: "/fake.jpg",
     gallery: [],
@@ -231,7 +291,7 @@ const projects: Project[] = [
     githubUrl: "",
     relatedProjects: []
   },
-   {
+  {
     id: 10,
     slug: "health-ai",
     title: "Healthcare AI",
@@ -251,7 +311,7 @@ const projects: Project[] = [
     githubUrl: "",
     relatedProjects: []
   },
-   {
+  {
     id: 11,
     slug: "edunet-ai",
     title: "EduNet AI",
@@ -271,7 +331,7 @@ const projects: Project[] = [
     githubUrl: "",
     relatedProjects: []
   },
- 
+
 ]
 
 
