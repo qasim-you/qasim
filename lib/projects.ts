@@ -31,6 +31,46 @@ export interface Project {
 }
 
 const projects: Project[] = [
+   {
+    id: 9,
+    slug: "smartguy-edtech",
+    title: "SmartGuy",
+    category: "Next Js with Shadcn Ui",
+    shortDescription: "EdTech platform with interactive learning modules.",
+    description: [
+      "Worked on an edtech platform. Developed interactive frontend pages and dashboards for student learning modules."
+    ],
+    features: [],
+    technologies: ["React.js", "Next.js"],
+    coverImage: "/smartguy.png",
+    thumbnailImage: "/smartguy.png",
+    gallery: [],
+    timeline: "2 months",
+    role: "Frontend Developer",
+    liveUrl: "",
+    githubUrl: "",
+    relatedProjects: []
+  },
+    {
+    id: 12,
+    slug: "aiviralbuzz",
+    title: "Aiviralbuzz",
+    category: "Full stack",
+    shortDescription: "Startup project for imfluencers and content creater.",
+    description: [
+      "Built dynamic frontend interfaces for an emotion-aware AI chatbot. Optimized performance and responsiveness."
+    ],
+    features: [],
+    technologies: ["Next.js", "Gemini sdk", ".Net Core","Firebase","Pinecone"],
+    coverImage: "/aiiviralbuzz.png",
+    thumbnailImage: "/aiiviralbuzz.png",
+    gallery: [],
+    timeline: "1 month",
+    role: "Frontend Developer",
+    liveUrl: "https://aiviralbuzz.com/",
+    githubUrl: "",
+    relatedProjects: []
+  },
   {
     id: 1,
     slug: "appointment-app",
@@ -62,12 +102,12 @@ const projects: Project[] = [
     ],
     features: [],
     technologies: ["React", "TypeScript", "Redux Toolkit"],
-    coverImage: "/recipe-app-cover.png",
-    thumbnailImage: "/recipe-app-thumb.png",
+    coverImage: "/recipie.png",
+    thumbnailImage: "/recipie.png",
     gallery: [],
     timeline: "1 month",
     role: "Frontend Developer",
-    liveUrl: "https://example.com/recipe-app",
+    liveUrl: "https://github.com/qasim-you/RECEPIE-APP",
     githubUrl: "",
     relatedProjects: []
   },
@@ -81,13 +121,13 @@ const projects: Project[] = [
       "Developed during lablab.ai Hackathon using AI-powered algorithms for real-time news verification. Built with React, Node.js, and MongoDB."
     ],
     features: [],
-    technologies: ["React", "Node.js", "MongoDB"],
-    coverImage: "/fake-news-detection-cover.png",
-    thumbnailImage: "/fake-news-detection-thumb.png",
+    technologies: ["Next Js","Gemini API", "Huging Face Model"],
+    coverImage: "/fake.jpg",
+    thumbnailImage: "/fake.jpg",
     gallery: [],
     timeline: "Hackathon (2024)",
     role: "Frontend Developer",
-    liveUrl: "https://example.com/fake-news-detection",
+    liveUrl: "https://truth-guard-dusky.vercel.app/",
     githubUrl: "",
     relatedProjects: []
   },
@@ -101,13 +141,13 @@ const projects: Project[] = [
       "Developed during lablab.ai Hackathon to facilitate research analysis using AI and data visualization techniques. Built with Python, React, and Firebase."
     ],
     features: [],
-    technologies: ["Python", "React", "Firebase"],
-    coverImage: "/pd-research-cover.png",
-    thumbnailImage: "/pd-research-thumb.png",
+    technologies: ["Flask ", "Streamlit"],
+    coverImage: "/gemin-hacathoni.jpeg",
+    thumbnailImage: "/gemin-hacathoni.jpeg",
     gallery: [],
     timeline: "Hackathon (2024)",
     role: "Full Stack Developer",
-    liveUrl: "https://example.com/pd-research",
+    liveUrl: "https://gemini-ai-hackathon-m2a97jyjlwgk6ljzvz4g7n.streamlit.app/",
     githubUrl: "",
     relatedProjects: []
   },
@@ -122,8 +162,8 @@ const projects: Project[] = [
     ],
     features: [],
     technologies: ["Next.js", "Accertinity"],
-    coverImage: "/portfolio-cover.png",
-    thumbnailImage: "/portfolio-thumb.png",
+    coverImage: "/portfolio.png",
+    thumbnailImage: "/portfolio.png",
     gallery: [],
     timeline: "Ongoing",
     role: "Designer & Developer",
@@ -134,16 +174,16 @@ const projects: Project[] = [
   {
     id: 6,
     slug: "avunja-platform",
-    title: "AVunja Platform",
+    title: "Avunja Platform",
     category: "Frontend Project",
     shortDescription: "African marketplace frontend development.",
     description: [
-      "Contributed to the frontend development of a scalable African marketplace platform. Implemented UI/UX and integrated backend APIs."
+      "This wasn't complete — I made updates to it in the real production version."
     ],
     features: [],
     technologies: ["React.js", "Next.js"],
-    coverImage: "/avunja-cover.png",
-    thumbnailImage: "/avunja-thumb.png",
+    coverImage: "/avunja.png",
+    thumbnailImage: "/avunja.png",
     gallery: [],
     timeline: "2 months",
     role: "Frontend Developer",
@@ -182,35 +222,56 @@ const projects: Project[] = [
     ],
     features: [],
     technologies: ["React.js", "Next.js"],
-    coverImage: "/feelix-cover.png",
-    thumbnailImage: "/feelix-thumb.png",
+    coverImage: "/feelix.png",
+    thumbnailImage: "/feelix.png",
     gallery: [],
     timeline: "1 month",
     role: "Frontend Developer",
-    liveUrl: "",
+    liveUrl: "https://beta-feelix-ai.vercel.app/",
     githubUrl: "",
     relatedProjects: []
   },
-  {
-    id: 9,
-    slug: "smartguy-edtech",
-    title: "SmartGuy",
-    category: "Frontend Project",
-    shortDescription: "EdTech platform with interactive learning modules.",
+   {
+    id: 10,
+    slug: "health-ai",
+    title: "Healthcare AI",
+    category: "Full stack",
+    shortDescription: "Emotion-aware AI chatbot frontend interfaces.",
     description: [
-      "Worked on an edtech platform. Developed interactive frontend pages and dashboards for student learning modules."
+      "Built dynamic frontend interfaces for an emotion-aware AI chatbot. Optimized performance and responsiveness."
     ],
     features: [],
-    technologies: ["React.js", "Next.js"],
-    coverImage: "/smartguy-cover.png",
-    thumbnailImage: "/smartguy-thumb.png",
+    technologies: ["React.js", "Next.js", "Gemini sdk"],
+    coverImage: "/healthcare.jpg",
+    thumbnailImage: "/healthcare.jpg",
     gallery: [],
-    timeline: "2 months",
+    timeline: "1 month",
     role: "Frontend Developer",
-    liveUrl: "",
+    liveUrl: "https://ai-health-ten.vercel.app/",
     githubUrl: "",
     relatedProjects: []
-  }
+  },
+   {
+    id: 11,
+    slug: "edunet-ai",
+    title: "EduNet AI",
+    category: "Full stack",
+    shortDescription: "Emotion-aware AI chatbot frontend interfaces.",
+    description: [
+      "Built dynamic frontend interfaces for an emotion-aware AI chatbot. Optimized performance and responsiveness."
+    ],
+    features: [],
+    technologies: ["React.js", "Next.js", "Gemini sdk"],
+    coverImage: "/edunet.jpg",
+    thumbnailImage: "/edunet.jpg",
+    gallery: [],
+    timeline: "1 month",
+    role: "Frontend Developer",
+    liveUrl: "https://education-app-livid.vercel.app/",
+    githubUrl: "",
+    relatedProjects: []
+  },
+ 
 ]
 
 
