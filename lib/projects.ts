@@ -3,6 +3,7 @@ export interface ProjectGalleryImage {
   caption?: string
 }
 
+
 export interface RelatedProject {
   slug: string
   title: string
