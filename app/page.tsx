@@ -183,7 +183,7 @@ export default function Home() {
               </AnimatedSection>
             </div>
           </div>
-
+  
           {/* Footer */}
           <AnimatedSection
             animation="fade-in"
