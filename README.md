@@ -1,7 +1,5 @@
 # Portfolio Website with JSON Content Management
  
-This portfolio website is designed to be easily customizable through a JSON data file. This allows you to update your content without having to modify the codebase directly.
-
 ## How to Update Content
 
 All content is stored in the `data/portfolio-data.json` file. You can edit this file to update the information displayed on your portfolio website.
