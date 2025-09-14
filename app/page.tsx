@@ -151,7 +151,7 @@ export default function Home() {
                   </CardContent>
                 </Card>
               </AnimatedSection>
-
+         
               {/* Projects Section */}
               <AnimatedSection animation="fade-up" id="projects">
                 <Card className="bg-zinc-900/70 border-zinc-800 backdrop-blur-sm">
@@ -183,7 +183,7 @@ export default function Home() {
               </AnimatedSection>
             </div>
           </div>
-
+  
           {/* Footer */}
           <AnimatedSection
             animation="fade-in"
