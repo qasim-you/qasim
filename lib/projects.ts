@@ -32,22 +32,22 @@ export interface Project {
 
 const projects: Project[] = [
   {
-    id: 9,
-    slug: "smartguy-edtech",
-    title: "SmartGuy",
-    category: "Next Js with Shadcn Ui",
-    shortDescription: "EdTech platform with interactive learning modules.",
+    id: 20,
+    slug: "nurturebuddy-ai",
+    title: "NurtureBuddy Ai",
+    category: "Full stack",
+    shortDescription: "Build a Ai space agent for the space travel industry.",
     description: [
-      "Worked on an edtech platform. Developed interactive frontend pages and dashboards for student learning modules."
+      "Built dynamic frontend interfaces for an emotion-aware AI chatbot. Optimized performance and responsiveness."
     ],
     features: [],
-    technologies: ["React.js", "Next.js"],
-    coverImage: "/smartguy.png",
-    thumbnailImage: "/smartguy.png",
+    technologies: ["Next.js", "MongoDB", "Gemini sdk", "Stripe"],
+    coverImage: "/nurture.png",
+    thumbnailImage: "/nurture.png",
     gallery: [],
-    timeline: "2 months",
-    role: "Frontend Developer",
-    liveUrl: "",
+    timeline: "1 month",
+    role: "Full Stack",
+    liveUrl: "https://nurturebuddy.vercel.app/",
     githubUrl: "",
     relatedProjects: []
   },
@@ -71,6 +71,46 @@ const projects: Project[] = [
     githubUrl: "",
     relatedProjects: []
   },
+   {
+    id: 19,
+    slug: "game-taken",
+    title: "Game Taken",
+    category: "Full stack",
+    shortDescription: "Built a taken game  ",
+    description: [
+      "Built a dynamic game with the help of Ai "
+    ],
+    features: [],
+    technologies: ["Next.js",],
+    coverImage: "/game-ai.png",
+    thumbnailImage: "/game-ai.png",
+    gallery: [],
+    timeline: "1 month",
+    role: "Frontend Developer",
+    liveUrl: "/",
+    githubUrl: "",
+    relatedProjects: []
+  },
+   {
+    id: 18,
+    slug: "research-assistant",
+    title: "Research Assistant",
+    category: "Full stack",
+    shortDescription: "Built a research assistant tool  ",
+    description: [
+      "Built a dynamic research assistant tool with the help of Ai "
+    ],
+    features: [],
+    technologies: ["Next.js",],
+    coverImage: "/research-ai.png",
+    thumbnailImage: "/research-ai.png",
+    gallery: [],
+    timeline: "1 month",
+    role: "Frontend Developer",
+    liveUrl: "https://research-assistant-psi.vercel.app/",
+    githubUrl: "",
+    relatedProjects: []
+  },
   {
     id: 13,
     slug: "space-agent",
@@ -86,11 +126,12 @@ const projects: Project[] = [
     thumbnailImage: "/space.jpg",
     gallery: [],
     timeline: "1 month",
-    role: "Frontend Developer",
+    role: "Ai Developer",
     liveUrl: "https://ai-agents-space.vercel.app/",
     githubUrl: "",
     relatedProjects: []
   },
+ 
    {
     id: 14,
     slug: "optimizing-network",
