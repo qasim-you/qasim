@@ -41,8 +41,8 @@
 ]
 
   },
- "about": {
-  "bio": "I am a passionate MERN stack developer and AI enthusiast focused on building scalable, real-world applications. With a strong foundation in full-stack development, I specialize in integrating AI APIs like OpenAI and Gemini into modern web apps. I thrive on solving complex problems through creative coding, research, and intuitive UI/UX design.",
+"about": {
+  "bio": "I am a passionate Software and Ai developer and AI enthusiast focused on building scalable, real-world applications. With a strong foundation in full-stack development, I specialize in integrating AI APIs like OpenAI and Gemini into modern web apps. I thrive on solving complex problems through creative coding and research. I have also participated in 14 international hackathons, including prestigious events at Harvard and MIT.",
   "focus": [
     "Building full-stack web applications using the MERN stack",
     "Integrating AI APIs for intelligent, real-time user experiences",
@@ -72,7 +72,8 @@
     "Hackathon Attendee",
     "Open Source Contributions"
   ]
-},
+}
+,
 
   "navigation": [
     {
